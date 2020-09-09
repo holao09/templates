@@ -18,7 +18,7 @@ services:
      environment:
        SS_DATABASE_SERVER: db:3306
        SS_DATABASE_USERNAME: silverstripe
-       WORDPRESS_DB_PASSWORD: 123456a@
+       SS_DATABASE_PASSWORD: 123456a@
        VIRTUAL_HOST: ${HOSTNAME}
        LETSENCRYPT_HOST: ${HOSTNAME}
        VIRTUAL_PORT: ${PORT}
